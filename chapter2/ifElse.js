@@ -25,3 +25,33 @@ if(marks>90) {
 }else if(marks<=30){
     console.log('FF');
 }
+
+var num1 = 10
+var num2 = 20
+if(num1>num2){
+    console.log(num1);
+}else if(num1<num2){
+    console.log(num2);
+}
+
+var num1=111
+var num2=22
+var num3=3
+
+if(num1>num2 && num1>num3){
+    console.log(num1);
+}else if(num2>num1 && num2>num3){
+    console.log(num2);
+}else if(num3>num1 && num3>num2){
+    console.log(num3);
+}
+
+var a = 23
+if(a>0){
+    console.log('positive');
+}else if(a<0){
+    console.log('negative');
+}
+else{
+    console.log('both');
+}
