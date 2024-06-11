@@ -116,11 +116,11 @@ console.log(a15 !== a16); //true
 //false || false = false
 
 var a17 = 15
-var a18 = 15
+var a18 = 15 // true answer change false 
 console.log(!(a17 == a18)); //false
 
 var a19 = 15
-var a20 = 25
+var a20 = 25 // false answer change true
 console.log(!(a19 == a20)); //true
 
 var a21=25
