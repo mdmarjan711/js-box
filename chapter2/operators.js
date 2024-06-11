@@ -56,7 +56,7 @@ console.log(q);
 
 
 //relational operator
-//  >  >=  <  <=  ==  ===  != ! ==
+//  >  >=  <  <=  ==  ===  != !==
 var a1 = 10
 var a2 = 5
 console.log(a1>a2); //true
@@ -104,13 +104,24 @@ console.log(a15 !== a16); //true
 
 // logical operator
 //&& || !
+
+//true && true = true
+//true && false = false
+//false &7 true = false 
+//false && false = false
+
+//true || true = true
+//true || false = true
+//false || true = true
+//false || false = false
+
 var a17 = 15
 var a18 = 15
 console.log(!(a17 == a18)); //false
 
 var a19 = 15
 var a20 = 25
-console.log(!(a19 == a20)); //ture
+console.log(!(a19 == a20)); //true
 
 var a21=25
 var a22=25
