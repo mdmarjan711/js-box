@@ -3,8 +3,8 @@ for(var i=1; i<=35; i++){
 }
 
 
-for(var a=20; a>=1; a--){
-    console.log(a);
+for(var b=20; b>=1; b--){
+    console.log(b);
 }
 
 //summation
