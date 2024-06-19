@@ -14,3 +14,5 @@ while (isRuning) {
         console.log('you have got '+num);
     }
 }
+
+// Do while loop
