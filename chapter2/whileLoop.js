@@ -4,15 +4,20 @@ while (i<=10) {
     i++
 }
 
-var isRuning = true
-while (isRuning) {
+var isRunning = true
+while (isRunning) {
     var num = Math.floor(Math.random()*10+1)
     if (num==9) {
-        console.log('winer winer');
-        isRuning = false
+        console.log('winner winner');
+        isRunning = false
     }else{
         console.log('you have got '+num);
     }
 }
 
 // Do while loop
+var j = 1
+do{
+    console.log('bdt');
+    j++
+}while(j>10)
