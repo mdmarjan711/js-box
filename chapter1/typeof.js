@@ -32,3 +32,9 @@ console.log(j);
 var k = 19
 var l = 7
 console.log(k%l);
+
+var ab = 0.5555
+var ac = 0.225
+var x = (ab+ac)
+x = x.toFixed(2)
+console.log(x);
