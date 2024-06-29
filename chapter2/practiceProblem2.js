@@ -1,24 +1,26 @@
 // Probelm 1
 // array
 
-// var fruits = ['Apple', 'Banana', 'Orange']
+var fruits = ['Apple', 'Banana', 'Orange']
 //  indexOf      0        1         2 
 
-// console.log(fruits.indexOf('Banana'));
+console.log(fruits.indexOf('Banana'));
 //var find = fruits.indexOf('Banana')
 //console.log(find);
 
-// fruits[1] = 'Mango'
-// console.log(fruits);
+fruits[1] = 'Mango'
+console.log(fruits);
 
-// fruits.pop('Orange')
-// console.log(fruits);
+fruits.pop('Orange')
+console.log(fruits);
 
 // var a = fruits.pop('Orange')
 // console.log(a);
 
-// fruits.push('Watermelon')
-// console.log(fruits);
+fruits.push('Watermelon')
+console.log(fruits);
+
+
 
 // Probelm 2
 var marks = 65
