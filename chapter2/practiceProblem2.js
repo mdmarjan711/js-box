@@ -11,7 +11,7 @@ console.log(fruits.indexOf('Banana'));
 fruits[1] = 'Mango'
 console.log(fruits);
 
-fruits.pop('Orange')
+fruits.pop()
 console.log(fruits);
 
 // var a = fruits.pop('Orange')
