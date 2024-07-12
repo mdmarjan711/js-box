@@ -23,4 +23,10 @@ console.log(c);
 
 console.log(c.indexOf('olive'));
 
+var dx = [5, 6, 7, 8 , 9, 10]
+console.log(dx[2]); //7
+dx[10] = 15
+console.log(dx);
+console.log(dx.length);//11
+
 
